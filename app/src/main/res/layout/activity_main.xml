@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#168BC34A"
+    android:background="@drawable/logo_ctict_2"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints">
-
+        <!--
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
@@ -32,7 +32,7 @@
             android:textColor="@android:color/holo_green_dark"
             android:textSize="36sp"
             android:textStyle="bold" />
-
+        -->
         <Button
             android:id="@+id/startButton"
             android:layout_width="match_parent"

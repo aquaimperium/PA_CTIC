@@ -1,16 +1,20 @@
 package com.example.pa_ctic;
 
+import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.telephony.SmsManager;
 import android.telephony.SmsMessage;
+import android.util.Log;
 import android.widget.Toast;
 
 public class UsingBroadcastReceiver extends BroadcastReceiver {
-
-    String no = "6505551212";
+    //Numero del emulador: 6505551212
+    String no= "6505551212";
     String message = "Pedido de Emergencia";
+    int onGPS = 0;
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -25,7 +29,10 @@ public class UsingBroadcastReceiver extends BroadcastReceiver {
             }
             if (address1.equals(no)){
                 Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+                onGPS = 1;
             }
+
         }
     }
+
 }

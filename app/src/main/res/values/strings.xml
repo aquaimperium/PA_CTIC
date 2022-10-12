@@ -3,4 +3,5 @@
     <string name="heading">Poste de Auxilio</string>
     <string name="startButtonText">Activar Poste</string>
     <string name="stopButtonText">Desactivar Poste</string>
+    <string name="title_activity_gpsgoogle">GPSGoogle</string>
 </resources>
